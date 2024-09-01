@@ -3,3 +3,6 @@ admin
 administrator
 painel
 webmail
+shop
+advanced
+dvwa
