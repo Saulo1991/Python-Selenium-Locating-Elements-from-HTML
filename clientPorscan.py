@@ -1,10 +1,11 @@
 import dns.resolver
 
+
 res = dns.resolver.Resolver()
-file = open(r'C:\path\wordlist.txt', 'r')
+file = open(r'C:\Users\Notebook\python\wordlist.txt', 'r')
 subdomains = file.read().splitlines()
 
-target = 'example.com'
+target = 'panelinhadaaninha.com'
 
 for subdomain in subdomains:
     try:

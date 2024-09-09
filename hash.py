@@ -1,9 +1,7 @@
 import hashlib
 
 def convert_text_to_sha1(text):
-    digest = hashlib.sha1(
-        text.encode()
-    ).hexdigest()
+    digest = hashlib.sha1(text.encode()).hexdigest()
     
     return digest
 
