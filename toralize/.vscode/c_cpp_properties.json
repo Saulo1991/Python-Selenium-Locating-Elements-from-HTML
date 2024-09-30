@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",         // Inclui o diretório do projeto
+                "C:/MinGW/include",              // Inclui cabeçalhos do MinGW
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include", // Caminho baseado na sua versão do GCC
+                "C:/Users/Notebook/python/"      // Inclui seu diretório de projeto
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",  // Caminho para o compilador GCC
+            "cStandard": "c11",              // Padrão C que você está usando
+            "cppStandard": "c++17",           // Padrão C++ (pode manter mesmo que seja só C)
+            "intelliSenseMode": "gcc-x64",    // Configuração correta para usar o GCC
+            "browse": {                       // Ajuda o IntelliSense a navegar pelos arquivos
+                "path": [
+                    "C:/MinGW/include",
+                    "C:/Users/Notebook/python/",  // Caminho onde o cabeçalho está
+                    "${workspaceFolder}"          // Caminho para o diretório do projeto
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
